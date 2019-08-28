@@ -1,0 +1,395 @@
+/* general */
+body,
+html {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 100%;
+}
+
+body {
+   font-family: Roboto;
+   font-size: 12px;
+   color: #424242;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+   margin: 0;
+}
+
+header,
+nav,
+footer,
+section,
+article,
+div {
+   box-sizing: border-box;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.news_more {
+   float: right;
+   font-size: 100%;
+   color: #333;
+   text-decoration: none;
+}
+
+/* header */
+.header {
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+   min-height: 56px;
+   transition: min-height 0.3s;
+}
+
+.header_inner {
+ 
+   width: 100%;
+    max-width:800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.header_logo {
+   height: 120px;
+   margin-right: 1%;
+   vertical-align: top;
+   margin-top: 1.2%;
+}
+
+.header_title {
+   font-weight: 300;
+   font-size: 4em;
+   margin: 5% 2.5%;
+   display: inline-block;
+   color: #212121;
+}
+
+/* navigation */
+#navmenu {
+   width: 100%;;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.nav_list {
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.nav_item {
+   box-sizing: border-box;
+   display: inline-block;
+   width: 24%;
+   text-align: center;
+   line-height: 24px;
+   padding: 3%;
+   text-transform: uppercase;
+}
+
+#navmenu a {
+   text-decoration: none;
+   color: #616161;
+}
+
+#navmenu a:hover {
+   text-decoration: underline;
+   color: #212121;
+}
+
+/* main */
+main {
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+   width: 100%;
+   max-width:800px;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: auto;
+}
+
+/* large dog photo */
+.hero {
+   float: left;
+   width: 60%;
+   max-width:480%;
+   position: relative;
+   background-image: url("./images/grady.jpg");
+   background-size:cover;
+   background-repeat:no-repeat ;
+   height: 300px;
+}
+
+/* text overlay on large dog photo */
+.hero-description {
+   box-sizing: border-box;
+   background-color: #000;
+   background-color: rgba(0, 0, 0, 0.4);
+   position: absolute;
+   bottom: 0;
+   height: 40%;
+   width: 100%;
+   color: #fff;
+   padding: 1em;
+}
+
+/* first area of news items, to the right of .hero */
+.top-news {
+   float: right;
+   width: 40%;
+   height: 300px;
+   border-bottom: 1px solid #E0E0E0;
+}
+
+.news_title {
+   font-weight: 300;
+   border-bottom: 1px solid #E0E0E0;
+   line-height: 24px;
+   font-size: 100%;
+   padding: 1em;
+}
+
+.top-news_item {
+   border-bottom: 1px solid #E0E0E0;
+   padding: 1em 0;
+   line-height: 19.2px;
+}
+
+.top-news_item:before {
+   content: "» ";
+}
+
+.top-news_item:last-child {
+   border-bottom: none;
+}
+
+.top-news_item a {
+   text-decoration: none;
+   color: #666;
+}
+
+.top-news_item a:hover,
+.top-news_item a:active {
+   text-decoration: underline;
+}
+
+/* table */
+.table_wrapper {
+   width: 60%;
+   float: left;
+   padding-top: 1em;
+   margin-bottom: 20px;
+}
+
+.table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.table th,
+.table td {
+   padding: 1em;
+}
+
+.table th {
+   color: #fff;
+   font-weight: 300;
+   background-color: #78909C;
+}
+
+.table tr:nth-child(odd) td {
+   background-color: #fff;
+}
+
+.table tr:nth-child(even) td {
+   background-color: #eceff1;
+}
+
+/* weather  */
+.weather {
+   float: right;
+   width: 40%;
+   padding: 1em;
+   text-align: center;
+}
+
+.weather_location {
+   display: block;
+   font-weight: 300;
+   font-size: 1.5em;
+}
+
+.weather_desc {
+   display: block;
+   font-size: 1.2em;
+}
+
+.weather_today {
+   width: 60%;
+   vertical-align: middle;
+}
+
+.weather_today_image {
+   vertical-align: middle
+}
+
+.weather_today_temp {
+   font-size: 3em;
+}
+
+.weather_today_deg {
+   font-size: 2em;
+   display: inline;
+}
+
+.weather_next_item {
+   display: inline-block;
+   width: 20%;
+   text-align: center;
+}
+
+.weather_next_item span {
+   display: block;
+}
+
+.weather_next_image {
+   width: 100%;
+}
+
+/* news .snippets with thumbnail images */
+.snippet {
+   clear: both;
+   margin: 24px 0;
+}
+
+.snippet_thumbnail {
+   width: 100px;
+   float: left;
+   margin: .25em;
+}
+
+.snippet_title {
+   font-weight: 500;
+}
+
+.snippet_title a {
+   text-decoration: none;
+   color: #666;
+}
+
+.snippet_title a:hover,
+.snippet_title a:active {
+   text-decoration: underline;
+}
+
+/* footer */
+footer {
+   border-top: 1px solid #E0E0E0;
+   padding: 1em;
+   width: 80%;
+   margin: 0 auto;
+}
+
+footer li {
+   display: inline-block;
+   margin: 0 .5em;
+}
+
+footer a {
+   text-decoration: none;
+   color: #333;
+
+}
+#mobilemenu{
+    display:none;
+}
+
+/* PUT ALL YOUR MEDIA QUERIES HERE */
+ * { box-sizing: border-box; }
+/* media query for tablet portrait layout (768px to 959px) */
+@media only screen and (max-width: 959px) {
+    html{
+        width:100%;
+    }
+    .header_winner{
+        width:100%;
+    }
+    .hero{
+        width:100%
+    }
+    .hero article{
+        width:100%
+    }
+    .top-news{
+        width:100%
+    }
+    .news_title{
+        margin-left:33%;
+        margin-right:35%;
+    }
+    .top-news_item{
+        text-align: center;
+    }
+    .nav_list {
+        display:none;
+    }
+    #mobilemenu{
+        display:block;
+    }
+    .hero-description{
+        text-align: center;
+    }
+    .table_wrapper{
+        float:none;
+        margin: 0 auto;
+        width:100%;
+    }
+    .weather{
+        float:none;
+        margin:0 auto;
+        width:70%;
+    }
+    .header_inner{ 
+        margin:0 auto;
+    }
+    .header_title{
+        font-size: 300%;
+        width:70%;
+    }
+    .header_logo{
+        width:20%;
+        height:40%;
+    }
+    footer{
+        text-align: left;
+        margin:0;
+    }
+}
+ 
+/* media query for mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+    .news_title{
+        margin-left:28%;
+        margin-right:28%;
+    }
+}
+ 
+/* media query for mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+     .news_title{
+        margin-left:20%;
+        margin-right:20%;
+    } 
+    .header_title{
+        font-size: 220%;
+    }
+
+}
