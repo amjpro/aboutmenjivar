@@ -120,17 +120,14 @@
       background: #ccc;
       color: #fff; }
   .slicknav_nav a {
-    padding: 2px 50px 2px 2px;
-    margin: 2px 2px 2px 2px;
+    padding: 0% 150% 0% 0%;
+    margin: 0px 0px 0px 0px;
     text-decoration: none;
     font-size: 90%;
     color: #fff; }
     .slicknav_nav a:hover {
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 6px;
-      background: #ccc;
-      color: #222; }
+    <!-- -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 6px; background: #ccc; color: #222; -->
+}
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
