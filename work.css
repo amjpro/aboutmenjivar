@@ -5,6 +5,7 @@ html {
    padding: 0;
    width: 100%;
    height: 100%;
+     background-image:linear-gradient(lightgreen, lightgreen);
 }
 #all{
     background-image:linear-gradient(gold, lightgreen);
@@ -78,7 +79,7 @@ a:visited{
 .nav_item {
    box-sizing: border-box;
    display: inline-block;
-   width: 18%;
+   width: 24%;
    text-align: center;
    line-height: 24px;
    padding: 1%;
@@ -149,6 +150,7 @@ footer {
    padding: 1em;
    width: 80%;
    margin: 0 auto;
+   position:absolute;
 }
 
 footer li {
@@ -222,11 +224,11 @@ all:after {
         width:100%;
     }
     .well{
-        width:100%
+        width:100%;
+        height:200px;
     }
-
     .rofwell{
-        width:100%
+        width:100%;
     }
     .news_title{
         margin-left:33%;
@@ -267,6 +269,7 @@ all:after {
     .i2 ul li {
         text-align: left;
     }
+
 }
  
 /* media query for mobile landscape layout (480px to 767px) */
