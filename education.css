@@ -7,7 +7,7 @@ html {
    height: 100%;
 }
 #all{
-    background-image:linear-gradient(white, lightskyblue);
+    background-image:linear-gradient(lightskyblue, gold);
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -111,26 +111,11 @@ main {
    width: 50%;
    max-width:480%;
    position: relative;
-   background-image: url(images/IMG_0771.JPG);
+   background-image: url(images/IMG_0513.PNG);
    background-size:contain;
    background-repeat: no-repeat;
    height: 398px;
    background-position: center;
-}
-
-/* text overlay on well */
-.well-bio {
-   box-sizing: border-box;
-   background-color: #000;
-   background-color: rgba(0, 0, 0, 0.4);
-   position: absolute;
-   bottom: 0;
-   height: 24%;
-   width: 100%;
-   color: #fff;
-   padding: 1.5em;
-    font-size: 20px;
-    text-align: center;
 }
 
 /* first area of news items, to the right of .well */
@@ -149,6 +134,9 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+.i2 h3{
+    text-align: center;
 }
 .i2{
     grid-area: main2;
@@ -219,12 +207,12 @@ all:after {
   background: #F9FCFF;
   content: "";
   height: 40rem;
-  left: -5%;
+  left: -1%;
   position: absolute;
     right: -5%;
     top: 90%;
   transform-origin: 0 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 /* PUT ALL YOUR MEDIA QUERIES HERE */
@@ -272,9 +260,6 @@ all:after {
     footer{
         text-align: left;
         margin:0;
-    }
-    .i2{
-        text-align:center;
     }
 }
  

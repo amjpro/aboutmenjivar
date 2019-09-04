@@ -7,7 +7,7 @@ html {
    height: 100%;
 }
 #all{
-    background-image:linear-gradient(white, lightskyblue);
+    background-image:linear-gradient(gold, lightgreen);
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -111,7 +111,7 @@ main {
    width: 50%;
    max-width:480%;
    position: relative;
-   background-image: url(images/IMG_0771.JPG);
+   background-image: url(images/IMG_0800.JPG);
    background-size:contain;
    background-repeat: no-repeat;
    height: 398px;
@@ -119,25 +119,12 @@ main {
 }
 
 /* text overlay on well */
-.well-bio {
-   box-sizing: border-box;
-   background-color: #000;
-   background-color: rgba(0, 0, 0, 0.4);
-   position: absolute;
-   bottom: 0;
-   height: 24%;
-   width: 100%;
-   color: #fff;
-   padding: 1.5em;
-    font-size: 20px;
-    text-align: center;
-}
 
 /* first area of news items, to the right of .well */
 .rofwell {
    float: right;
    width: 45%;
-   height: 390px;
+   height: 400px;
    display:inline-grid;
     grid-template-rows:100%;
     grid-template-areas: 
@@ -153,7 +140,7 @@ main {
 .i2{
     grid-area: main2;
     text-align:left;
-    font-size:20px;
+    font-size:16px;
 }
 
 /* footer */
@@ -275,6 +262,10 @@ all:after {
     }
     .i2{
         text-align:center;
+        font-size: 18px;
+    }
+    .i2 ul li {
+        text-align: left;
     }
 }
  
