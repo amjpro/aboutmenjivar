@@ -5,10 +5,10 @@ html {
    padding: 0;
    width: 100%;
    height: 100%;
-   background-image:linear-gradient(gold, gold);
+   background-image:linear-gradient(lightskyblue, lightskyblue);
 }
 #all{
-    background-image:linear-gradient(lightskyblue, gold);
+    background-image:linear-gradient(white, lightskyblue);
     background-size:cover;
     background-repeat:no-repeat;
 }
