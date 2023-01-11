@@ -5,16 +5,7 @@ function loadHTML(){
     const $root = $('#page');
     let elt = 
         `<section id="welcome" class="hero is-fullheight is-bold" style="background-size: 300px; background-repeat: no-repeat; background-position: center;">
-            <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed;width: 100%;">
-                <div class="navbar-brand">
-                    <a id="burger" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                </div>
-            </nav>
-            <div id = "container">
+            <div id = "container" style = "margin-top: 200px">
                 <span class = "text1">Welcome</span>
             </div>
         </section>
@@ -80,9 +71,7 @@ function loadHTML(){
                     </div>
                 </div>
             </div>
-        </section>
-        <div class = "break"></div>
-        <div class = "break"></div>`
+        </section>`
     $(elt).appendTo($root);
 }
 function loadmode(hour){
