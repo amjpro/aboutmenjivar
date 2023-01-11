@@ -1,60 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-       <meta charset="utf-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>About Menjivar</title>
-       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-       <link rel="stylesheet" type="text/css" href="main.css">
-       <link rel="stylesheet" href="slicknav.css">
-       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-       <link rel="icon" href="images/IMG_1138(2).jpg" type="image/gif" sizes="17x17">
-       <script src="jquery.slicknav.min.js"></script>
-       <script type="text/javascript">
-           $(document).ready(function() {
-               $('#navmenu').slicknav({
-                   prependTo: "#mobilemenu"
-               });
-           });
-       </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <title>UDS</title>
     </head>
     <body>
-        <div id = "all">
-            <header class="header">
-                  <div class="header_inner">
-                      <h1 class="header_title animate-pop-in"><a href="index.html">About Menjivar</a></h1>
-                  </div>
-            </header>
-            <nav id = "mobilemenu"></nav>
-            <nav id="navmenu">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="index.html">Home</a></li>
-                    <li class="nav_item"><a href="education.html">Education</a></li>
-                    <li class="nav_item"><a href="work.html">Work Experience</a></li>
-                    <li class="nav_item"><a href="activities.html">Activities</a></li> 
-                </ul>
-            </nav>
-            <main>
-                <section class="content">
-                    <section class="well animate-pop-in">
-                        <article class="well-bio animapte-pop-in">
-                            <h2 class= "pop animation-po-in">Welcome!</h2>
-                        </article>
-                    </section>
-                    <section class="rofwell">
-                        <div class = "i2 animate-pop-in">
-                            <p>My name is Andres Menjivar. I am 19 years old and a second year student at The University of North Carolina at Chapel Hill. Prior to attending Chapel Hill, I was a student at Hugh M. Cummings High School and was the top student of my class, graduating with a 5.0313 grade point average. I have done many extracurricular activities including All County Orchestra, Student Advisory Council, Student Government Association, and College Ambassadors. Of these, playing the cello was my passion. I enjoyed many genres of music, and having played the cello for 6 years, music continues to be a major aspect of my life outside of academics. In School, I was highly gifted in Mathematics and Natural Sciences. I was often recognized by peers, tutors, and teachers. My senior year of High School, I received the Times News Award of Excellence for Science. Overall, I am a very exceptional student and hope my work represents this.</p>
+        <div id = "page">
+            <section id="welcome" class="hero is-fullheight is-bold" style="background-size: contain; background-repeat: no-repeat; background-position: center;">
+                <div id = "container">
+                    <span class = "text1 title is-1 ">Under Development</span>
+                    <span class = "text1 title is-1">Studios</span>
+                </div>
+            </section>
+            <div class = "break"></div>
+            <section class="section">
+                <div class="container">
+                    <div class="content has-text-centered">
+                        <h1 class="title is-2"style="color:white">The Developers</h1>
+                    </div>
+                    <div class="columns is-multiline justify-center has-text-centered title is-3" style="color:hsl(266, 87%, 42%)">
+                        <div id = "owen" class="column">
+                            <a href = "./zook/index.html">
+                                <img src="./images/Zook Logo.png">
+                                <span>Owen Zook</span>
+                            </a>
                         </div>
-                    </section>
-                </section>
-            </main>
-            <footer>
-                <ul>
-                    <li><a href="contact.html">Contact Information</a></li>
-                    <li><a href="https://www.linkedin.com/in/aboutmenjivar">LinkedIn</a></li>
-                </ul>
-            </footer>
+                        <div id = "andres"class="column">
+                            <a href = "./menjivar/index.html">
+                                <img src="./images/Andres Logo.png">
+                                <span>Andres Menjivar</span>
+                            </a>
+                        </div>
+                        <div id = "alex" class="column">
+                            <a href = "./harvey/index.html">
+                                <img src="./images/Alex Logo.png">
+                                <span>Alex Harvey</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">Version 1.0.0</section>
         </div>
     </body>
 </html>
