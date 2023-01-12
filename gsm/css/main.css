@@ -89,3 +89,51 @@ a:visited{
     background-repeat: no-repeat; 
     background-position:center;
 }
+
+
+html {
+    /* for animation */
+    background-image: linear-gradient(90deg, rgb(0, 0, 0),  rgb(39, 39, 35),  rgb(43, 42, 28), rgb(255, 215, 0));
+    background-repeat: no-repeat;
+    background-size: 800% 200%;
+    animation: gradient 30s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 70%;
+	}
+	50% {
+		background-position: 100% 70%;
+	}
+	100% {
+		background-position: 0% 75%;
+	} 
+}
+
+#container span {
+    color:white;
+    text-transform: uppercase;
+    display:block;
+}
+.text1{
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+    animation: text 3s 1; 
+} 
+@keyframes text{
+    0%{
+        color: black;
+    }
+    30%{
+        letter-spacing: 40px;
+    }
+    85%{
+        letter-spacing: 15px;
+    }
+}
+/* #page{
+    background-image: url(../images/postimage10.png);
+} */
